@@ -11,5 +11,5 @@
     "year": "$year",
     "type": "ftp",
     "compression": "zip",
-    "note": "Parcel polygons are available but these are address points from the tax assessor DBF's LOC_ID field"
+    "note": "Parcel polygons are available. These lon lat are derived from LOC_ID but appear to be parcel poly centroid."
 }
