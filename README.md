@@ -11,3 +11,5 @@ Note that lat/lng are taken from LOC_ID in tax assessor DBF.
 The LOC_ID field takes this form:
 M_<X>_<Y>(for meters), F_<X>_<Y> (for US Survey Feet)
 Feet are US Survey Feet, which are ~0.3048006096m.
+
+Note that towns in Dukes and Nantucket counties may be in Mass state plane islands rather than mainland.
