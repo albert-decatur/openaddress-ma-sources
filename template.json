@@ -3,7 +3,7 @@
         "country": "us",
         "state": "ma",
         "city": "$city"
-        "type": "shapefile-polygon"
+        "type": "shapefile"
     },
     "data": "$data",
     "website": "http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/ftpl3parcels.html",
@@ -11,5 +11,5 @@
     "year": "$year",
     "type": "ftp",
     "compression": "zip",
-    "note": "Parcel polygons, no address points"
+    "note": "Parcel polygons are available but these are address points from the tax assessor DBF's LOC_ID field"
 }
