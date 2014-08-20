@@ -1,26 +1,15 @@
-#!/bin/bash
-
-# make json from template
-# user args: 1) city, 2) data url, 3) relevant year
-
-city=$1
-data=$2
-year=$3
-
-cat <<EOF
 {
     "coverage": {
         "country": "us",
         "state": "ma",
-        "city": "$city"
+        "city": "greenfield"
         "type": "shapefile"
     },
-    "data": "$data",
+    "data": "ftp://128.239.103.87/misc/us-ma-greenfield.zip",
     "website": "http://www.mass.gov/anf/research-and-tech/it-serv-and-support/application-serv/office-of-geographic-information-massgis/datalayers/ftpl3parcels.html",
     "license": "Public Domain",
-    "year": "$year",
+    "year": "2013",
     "type": "ftp",
     "compression": "zip",
     "note": "Parcel polygons are available from MassGIS. These x,y are derived from MassGIS LOC_ID and appear to be parcel polyon centroids.  SRS is EPSG:26986"
 }
-EOF
