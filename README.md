@@ -15,4 +15,7 @@ Feet are US Survey Feet, which are ~0.3048006096m.
 Note that towns in Dukes and Nantucket counties may be in Mass state plane islands rather than mainland.
 A small handful of points appear to be well outside MA.
 
-Note: at least 22 does not have entries for FULL_STR and ADDR_NUM.  Used SITE_ADDR instead.
+Note: at least 22 does not have entries for FULL_STR and ADDR_NUM.  
+Used SITE_ADDR instead.
+The field denoting this is _SITE_ADDR.
+'1' means TRUE and '0' means FALSE.
